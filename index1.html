@@ -60,16 +60,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about.html">Kaj nudimo</a>
+                        <a href="#">Kaj nudimo</a>
                     </li>
                     <li>
-                        <a href="services.html">Naroci se</a>
+                        <a href="#">Naroci se</a>
                     </li>
                     <li>
-                        <a href="contact.html">FAQ</a>
+                        <a href="#">FAQ</a>
                     </li>
                      <li>
-                        <a href="contact.html">O nas</a>
+                         <a href="#" id="#contact" data-toggle="modal">O nas</a>
                     </li>
                      <li>
                         <div class="iskalnik">
@@ -150,7 +150,7 @@
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-gift"></i> Barvanje</h4>
+                        <h4><i class="fa fa-fw fa-check"></i> Barvanje</h4>
                     </div>
                     <div class="panel-body">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
@@ -161,7 +161,7 @@
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i> Strizenje</h4>
+                        <h4><i class="fa fa-fw fa-check"></i> Strizenje</h4>
                     </div>
                     <div class="panel-body">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
@@ -260,39 +260,42 @@
         <!-- Features Section -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">FAQ</h2>
+                <h2 class="page-header" style="text-align:center">FAQ</h2>
             </div>
            
                 
-               <div class="col-md-12 col-lg-12">
+         <div class="col-md-12 col-lg-12">
                  
-            <details open><summary>My Childhood</summary>
-    <p>I grew up in Ashtabula Ohio.  I lived near Lake Erie and I really miss the sunsets over the water. </details>
+           <div class="panel panel-default">
+                    <div class="panel-heading"> <details open> <summary><h4> Kaksen je salon in ekipa</h4></summary><hr>
+               
+                        <p class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod? </details>
+                    </div> 
             </div>
-             
+               
+           <div class="panel panel-default">
+                    <div class="panel-heading"> 
+                     <details> <summary><h4> Ali sprejemate hisne ljubljencke?</h4></summary><hr>
+               
+                        <p class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod? </details>
+                    </div> 
+             </div>
+           
+               
+            <div class="panel panel-default">
+                    <div class="panel-heading"> <details closed> <summary><h4> Imate kaksne nagrade s tekmovanj?</h4></summary><hr>
+               
+                    <p class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod </details>
+                   </div>
+            </div>
+          
             
-            <div class="col-md-6">
-                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
-            </div>
+           
         </div>
         <!-- /.row -->
 
-        <hr>
-
-        <!-- Call to Action Section -->
-        <div class="well">
-            <div class="row">
-                <div class="col-md-8">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-                </div>
-                <div class="col-md-4">
-                    <a class="btn btn-lg btn-default btn-block" href="#">Call to Action</a>
-                </div>
-            </div>
-        </div>
-
-        <hr>
-
+      
+       
         <!-- Footer -->
         <footer>
             <div class="row">
@@ -303,14 +306,28 @@
         </footer>
 
     </div>
+    
+      <!-- / - Modal  -->
+   <div class="modal fade" id="contact" role="dialog">
+       <div class="modal-dialog">
+           <div class="modal-content">
+               <div class="modal-header">
+                   <p> Lorem Ipsum</p>
+               </div>
+           </div>
+       </div>
+   </div>
+
     <!-- /.container -->
+    
+    
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+ 
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
